@@ -1,0 +1,5 @@
+numberOfTestCases = int(input())
+
+for letter in range(0, numberOfTestCases):
+    word = str(input())
+    print (f'{word[0::2]} {word[1::2]}')
