@@ -1,5 +1,4 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
-#/usr/bin/python3;
+#!/bin/python3
 
 no_of_entries = int(input())
 phonebook = {}
