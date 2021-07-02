@@ -1,0 +1,19 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+#/usr/bin/python3;
+
+no_of_entries = int(input())
+phonebook = {}
+
+for i in range(no_of_entries):
+    name, number = input().split()
+    phonebook[name] = number
+
+while True:
+    try:
+        search = input().strip()
+        if search in phonebook:
+            print(f'{search}={phonebook[search]}')
+        else:
+            print("Not found")
+    except:
+        break
